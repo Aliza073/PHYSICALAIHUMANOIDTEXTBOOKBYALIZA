@@ -9,6 +9,7 @@ module.exports = {
   organizationName: 'Aliza073',
   projectName: 'PHYSICALAI-HUMANOIDTEXTBOOK_BYALIZA',
   onBrokenLinks: 'warn',
+  trailingSlash: false,
   
   presets: [
     [
