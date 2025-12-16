@@ -1,6 +1,3 @@
-const math = require('remark-math');
-const katex = require('rehype-katex');
-
 module.exports = {
   title: 'Physical AI & Humanoid Robotics',
   tagline: 'From Digital Brain to Physical Body',
@@ -17,8 +14,6 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          remarkPlugins: [math],
-          rehypePlugins: [katex],
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
